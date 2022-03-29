@@ -1,3 +1,8 @@
+.Titulo {
+  background-color: green;
+  border-radius: 50%
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +41,4 @@
     transform: rotate(360deg);
   }
 }
+
