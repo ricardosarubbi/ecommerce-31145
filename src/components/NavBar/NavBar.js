@@ -5,13 +5,15 @@ const NavBar = () => {
     return(
         <nav className="NavBar">
             <div>
-                <h3>Comercio Electrónico</h3>
+                <h3>Richard's Apparels</h3>
             </div>
             <div>
-                <button>Zapatillas</button>
-                <button>Pantalones</button>
-                <button>Camisas</button>
-                <button>Remeras</button>
+                <button style={{ borderRadius: '10%',backgroundColor: 'darkblue',color: '#FFFFFF', marginRight: 15}}>Zapatillas</button>
+                <button style={{ borderRadius: '10%',backgroundColor: 'darkblue',color: '#FFFFFF', marginRight: 15}}>Pantalones</button>
+                <button style={{ borderRadius: '10%',backgroundColor: 'darkblue',color: '#FFFFFF', marginRight: 15}}>Camisas</button>
+                <button style={{ borderRadius: '10%',backgroundColor: 'darkblue',color: '#FFFFFF', marginRight: 15}}>Remeras</button>
+                <button style={{ borderRadius: '10%',backgroundColor: 'darkblue',color: '#FFFFFF', marginRight: 15}}>Vestidos</button>
+                <button style={{ borderRadius: '10%',backgroundColor: 'darkblue',color: '#FFFFFF', marginRight: 15}}>Mallas</button>
             </div>
             <div>
                 <CartWidget />
